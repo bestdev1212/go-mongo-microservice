@@ -52,8 +52,6 @@ microservices-docker-go-mongodb_website_1     ./cinema-website -usersAPI ...   U
 
 Once the services have started, you can access the web through the following link: <http://localhost>.
 
-![Website Home](images/website-home.jpg)
-
 ## Restore database information
 
 You will start using an empty database for all microservices, but if you want you can restore a preconfigured data execute this command:
@@ -82,8 +80,6 @@ $ docker-compose exec db mongorestore --uri mongodb://db:27017 --gzip  /backup/c
 ```
 
 This command will go inside the mongodb container (`db` service described in `docker-compose.yml` file). Once the command finished the data inserted will be ready to be consulted. Try listing users againg <http://localhost/users/list>.
-
-![Users List](images/website-users.jpg)
 
 ## Enabling microservices APIs
 
@@ -130,9 +126,8 @@ Stopping microservices-docker-go-mongodb_showtimes_1 ... done
 
 ## Traefik Proxy dashboard
 
-This project use Traefik Proxy v2.4.2, [the dashboard should look like this image](http://localhost:8080/dashboard/#/):
+This project use Traefik Proxy v2.4.2, http://localhost:8080/dashboard/#/:
 
-![overview](images/traefik-dashboard.jpg)
 
 Next: [Endpoints](endpoints.md)
 
