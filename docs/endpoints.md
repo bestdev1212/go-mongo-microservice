@@ -1,8 +1,8 @@
-# Cinema - Endpoints
+# Endpoints
 
 ## User Service
 
-This service returns information about the users of Cinema.
+This service returns information about the users.
 
 | Service | Method | Endpoint       |
 |---------|--------|----------------|
