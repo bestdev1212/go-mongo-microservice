@@ -1,8 +1,8 @@
-# Cinema - Localhost Deployment
+# Local Deployment
 
 ## Overview
 
-The Cinema project can be deployed in a single machine (localhost) using docker compose in order to know the behavior of microservices.
+The project can be deployed in a single machine (localhost) using Docker Compose in order to know the behavior of microservices.
 
 ## Index
 
