@@ -17,11 +17,6 @@ The project structure is based in the knowledge learned in:
 * Golang structure: <https://peter.bourgon.org/go-best-practices-2016/#repository-structure>
 * Book Let's Go: <https://lets-go.alexedwards.net/>
 
-## Index
-
-* [Deployment](#deployment)
-* [How To Use Services](#how-to-use-services)
-
 ## Deployment
 
 The application can be deployed in both environments: **local machine** or in a **kubernetes cluster**. You can find the appropriate documentation for each case in the following links:
