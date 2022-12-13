@@ -1,4 +1,4 @@
-# Cinema - Kubernetes Deployment
+# Kubernetes Deployment
 
 ## Overview
 
