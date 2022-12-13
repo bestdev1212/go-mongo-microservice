@@ -1,16 +1,16 @@
-# Cinema - Example of Microservices in Go with Docker, Kubernetes and MongoDB
+# Building microservices using Go with Docker, Kubernetes and MongoDB
 
 ## Overview
 
-Cinema is an example project which demonstrates the use of microservices for a fictional movie theater.
-The Cinema backend is powered by 4 microservices, all of which happen to be written in Go, using MongoDB for manage the database and Docker to isolate and deploy the ecosystem.
+An example project which demonstrates the use of microservices for a fictional movie theater.
+The backend is powered by 4 microservices, all of which happen to be written in Go, using MongoDB for manage the database and Docker to isolate and deploy the ecosystem.
 
  * Movie Service: Provides information like movie ratings, title, etc.
  * Show Times Service: Provides show times information.
  * Booking Service: Provides booking information.
  * Users Service: Provides movie suggestions for users by communicating with other services.
 
-The Cinema use case is based on the project written in Python by [Umer Mansoor](https://github.com/umermansoor/microservices).
+The use case is based on the project written in Python by [Umer Mansoor](https://github.com/umermansoor/microservices).
 
 The project structure is based in the knowledge learned in:
 
@@ -32,21 +32,9 @@ The application can be deployed in both environments: **local machine** or in a 
 * [local machine (docker compose)](./docs/localhost.md)
 * [kubernetes](./docs/kubernetes.md)
 
-## How To Use Cinema Services
+## How To Use Services
 
 * [endpoints](./docs/endpoints.md)
-
-## Related Posts
-
-* [Traefik 2 - Advanced configuration with Docker Compose](https://mmorejon.io/en/blog/traefik-2-advanced-configuration-docker-compose/)
-
-## Significant Revisions
-
-* [Microservices - Martin Fowler](http://martinfowler.com/articles/microservices.html)
-* [Umer Mansoor - Cinema](https://github.com/umermansoor/microservices)
-* [Traefik Proxy Docs](https://doc.traefik.io/traefik/)
-* [MongoDB Driver for Golang](https://github.com/mongodb/mongo-go-driver)
-* [MongoDB Golang Channel](https://www.youtube.com/c/MongoDBofficial/search?query=golang)
 
 ## Screenshots
 
