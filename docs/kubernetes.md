@@ -9,7 +9,7 @@ The project can be deployed in a kubernetes cluster in order to know the behavio
 * [Requirements](#requirements)
 * [Create Kubernetes Cluster](#create-kubernetes-cluster)
 * [Deploy project in Kubernetes](#deploy-project-in-kubernetes)
-* [Check Cinema services status](#check-cinema-services-status)
+* [Check services status](#check-services-status)
 * [Populate mongodb cluster with information](#populate-mongodb-cluster-with-information)
 * [Test APIs services](#test-apis-services)
 * [Remove deployment](#remove-deployment)
