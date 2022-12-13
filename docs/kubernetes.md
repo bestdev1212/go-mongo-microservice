@@ -2,13 +2,13 @@
 
 ## Overview
 
-The Cinema project can be deployed in a kubernetes cluster in order to know the behavior of microservices
+The project can be deployed in a kubernetes cluster in order to know the behavior of microservices
 
 ## Index
 
 * [Requirements](#requirements)
 * [Create Kubernetes Cluster](#create-kubernetes-cluster)
-* [Deploy Cinema project in Kubernetes](#deploy-cinema-project-in-kubernetes)
+* [Deploy project in Kubernetes](#deploy-project-in-kubernetes)
 * [Check Cinema services status](#check-cinema-services-status)
 * [Populate mongodb cluster with information](#populate-mongodb-cluster-with-information)
 * [Test APIs services](#test-apis-services)
@@ -65,7 +65,7 @@ kubectl cluster-info
   ```
 </details>
 
-## Deploy Cinema project in Kubernetes
+## Deploy project in Kubernetes
 
 To deploy this project should be used the `cinema` Helm chart located in `./charts` folder. This chart is an umbrella for all services needed to deploy the project. Take a look at the `dependencies` section in the `Chart.yaml` file.
 
